@@ -1,0 +1,103 @@
+
+html,body{
+    height: 100%;
+}
+
+body{
+    font-family: "Arvo", serif;
+    background-image: url("./images/milky-way-full-stars-space.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    min-height:100%;
+    min-width: 100%;
+    justify-content: space-evenly;
+}
+
+.navbar{
+    opacity: 70%; 
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px ;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+}
+
+ul li{
+    color: white;
+    font-family: "Arvo", serif;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+
+ul li:hover{
+    border-bottom: 3px solid #00FFB8;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+.jumbotron{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2px;
+    min-height:100%;
+    scroll-behavior: smooth;
+    max-width: 1150px;
+}
+
+#featured{
+    margin-left: 200px;
+    font-family: "Arvo", serif;
+    text-align: center;
+    align-items: center;
+    color: antiquewhite;
+    margin: 5px auto;
+    font-weight: 600;
+}
+
+.row{
+    margin-top: 90px;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.contact .btn{
+    background: rgba(0,255,184,0.5);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 2px;
+}
+
+.contact .btn:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+
+@media (max-width: 768px) {
+    #featured img{
+        height: 70px;
+    }
+}
+
+
